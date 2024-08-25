@@ -1,11 +1,10 @@
-# Portfolio
 # Anisa Frasheri - Portfolio Website
 
 Welcome to my portfolio website! This site showcases my work, projects, and skills as a Computer Engineer. It's a place where you can learn more about my professional journey, view my resume, explore my projects, and connect with me on various platforms.
 
 ## Website URL
 You can visit my live portfolio at:
-[https://anisafrasheri.github.io/my-website](https://anisafrasheri.github.io/Portfolio/)
+[https://anisafrasheri.github.io/Portfolio/](https://anisafrasheri.github.io/Portfolio/)
 
 ## Features
 
@@ -23,5 +22,8 @@ You can visit my live portfolio at:
 - **JavaScript:** For interactivity and dynamic content.
 - **Jekyll:** To facilitate easy management of content and static site generation (if applicable).
 - **GitHub Pages:** For hosting and deploying the website.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
