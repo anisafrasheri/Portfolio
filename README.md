@@ -5,7 +5,7 @@ Welcome to my portfolio website! This site showcases my work, projects, and skil
 
 ## Website URL
 You can visit my live portfolio at:
-[https://anisafrasheri.github.io/my-website](https://anisafrasheri.github.io/my-website)
+[https://anisafrasheri.github.io/my-website](https://anisafrasheri.github.io/Portfolio/)
 
 ## Features
 
@@ -24,10 +24,4 @@ You can visit my live portfolio at:
 - **Jekyll:** To facilitate easy management of content and static site generation (if applicable).
 - **GitHub Pages:** For hosting and deploying the website.
 
-## Getting Started
 
-### Prerequisites
-To run this website locally, you'll need to have the following installed:
-
-- **Git:** Version control system to clone the repository.
-- **Jekyll:** (Optional) If you want to test the site locally with Jekyll.
