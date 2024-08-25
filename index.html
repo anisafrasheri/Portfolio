@@ -40,25 +40,28 @@
     </script>
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
     <script type="text/javascript">
-        ! function (o, c) {
+        !function (o, c) {
             var n = c.documentElement,
                 t = " w-mod-";
             n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className +=
                 t + "touch")
         }(window, document);
+
         function toggleDarkMode() {
             var element = document.body;
             element?.classList.toggle("dark-mode");
 
-            document.getElementById("dropMeTextImage").src = element.classList.contains("dark-mode") ? "imgg/DropMeATextWhite.svg" : "imgg/DropMeATextBlack.svg"
-            document.getElementById("logoImage").src = element.classList.contains("dark-mode") ? "imgg/logoWhite.svg" : "imgg/logoBlack.svg"
-            document.getElementById("menu-button").src = element.classList.contains("dark-mode") ? "imgg/menu-icon-white.svg" : "imgg/menu-icon-black.svg"
+            // Change images based on dark mode status
+            document.getElementById("dropMeTextImage").src = element.classList.contains("dark-mode") ? "imgg/DropMeATextWhite.svg" : "imgg/DropMeATextBlack.svg";
+            document.getElementById("logoImage").src = element.classList.contains("dark-mode") ? "imgg/logoWhite.svg" : "imgg/logoBlack.svg";
+            document.getElementById("menu-button").src = element.classList.contains("dark-mode") ? "imgg/menu-icon-white.svg" : "imgg/menu-icon-black.svg";
 
+            // Toggle background class
             var bg = document.getElementsByClassName("nav-bg-white");
             bg[0]?.classList.toggle("nav-bg-white");
-
         }
     </script>
+
     <meta property="og:image"
           content="https://cdn1.bbcode0.com/uploads/2021/8/7/8cbc26bf3c750df7225484406b7f2bee-full.jpg">
     <link href="img/sunflower.png" rel="shortcut icon" type="image/x-icon" />
@@ -71,6 +74,8 @@
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/gallery.css" />
     <link rel="stylesheet" href="css/references.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+
 </head>
 
 <body>
@@ -80,22 +85,23 @@
             <input type="checkbox" onclick="toggleDarkMode()">
             <span class="slider round"></span>
         </label>
-        </a>
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="about" class="nav-link w-inline-block">
-            <div class="nav-link-text">About</div>
-            <div class="link-underline"></div>
-        </a><a href="resume" class="nav-link w-inline-block">
-            <div class="nav-link-text">Resume</div>
-            <div class="link-underline"></div>
-        </a><a href="about/projects.html" class="nav-link w-inline-block">
-            <div class="nav-link-text">Projects</div>
-            <div class="link-underline"></div>
-        </a>
-            </a><a href="https://github.com/anisafrasheri" class="nav-link w-inline-block">
+        <nav role="navigation" class="nav-menu w-nav-menu">
+            <a href="about" class="nav-link w-inline-block">
+                <div class="nav-link-text">About</div>
+                <div class="link-underline"></div>
+            </a>
+            <a href="resume" class="nav-link w-inline-block">
+                <div class="nav-link-text">Resume</div>
+                <div class="link-underline"></div>
+            </a>
+            <a href="about/projects.html" class="nav-link w-inline-block">
+                <div class="nav-link-text">Projects</div>
+                <div class="link-underline"></div>
+            </a>
+            <a href="https://github.com/anisafrasheri" class="nav-link w-inline-block">
                 <div class="nav-link-text">Github</div>
                 <div class="link-underline"></div>
             </a>
-
 
             <div class="pointer-events w-embed">
                 <style>
@@ -105,6 +111,7 @@
                 </style>
             </div>
         </nav>
+
         <div class="menu-button w-nav-button"><img id="menu-button" src="imgg/menu-icon-black.svg" loading="lazy"
                                                    alt="" /></div>
     </div>
@@ -289,7 +296,7 @@
                     </div>
                     <div class="col-md-12 mt-3">
                         <div class="progress-wrap">
-                            <h4>Frontend Development</h4>
+                            <h4 class="mb-14">Frontend Development</h4>
                             <div class="progress progress-style">
                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
                                      aria-valuemin="0" aria-valuemax="100" style="width:85%">
@@ -299,7 +306,7 @@
                     </div>
                     <div class="col-md-12 mt-3">
                         <div class="progress-wrap">
-                            <h4>IT Support</h4>
+                            <h4 class="mb-14">IT Support</h4>
                             <div class="progress progress-style">
                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="65"
                                      aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -309,7 +316,7 @@
                     </div>
                     <div class="col-md-12 mt-3">
                         <div class="progress-wrap">
-                            <h4>Digital Marketing</h4>
+                            <h4 class="mb-14">Digital Marketing</h4>
                             <div class="progress progress-style">
                                 <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
                                      aria-valuemin="0" aria-valuemax="100" style="width:95%">
@@ -765,7 +772,7 @@
     <div class="section">
         <div class="container">
             <div class="w-layout-grid grid-6-columns">
-                <div id="w-node-_741da83a-78d3-18d9-8e12-bc788baec05e-9daebe8c" class="content">
+                <div id="w-node-_741da83a-78d3-18d9-8e12-bc788baec05e-9daebe8c2" class="content">
                     <div class="heading-container">
                         <div class="perspective">
                             <div data-w-id="b239b8e5-e32b-992b-3449-9b54c8f88aed" class="perspective-load1-on-view">
@@ -1032,6 +1039,6 @@
     <script src="js/skill_counter.js"></script>
     <script src="js/main.js"></script>
     <script src="js/gallery.js"></script>
-</body>
 
+</body>
 </html>

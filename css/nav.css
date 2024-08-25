@@ -1,0 +1,45 @@
+.nav-menu {
+    display: flex; /* Display items in a row */
+    flex-direction: row; /* Ensure items are aligned horizontally */
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-link {
+    margin-right: 20px; /* Space between each link */
+    text-align: center; /* Center text */
+}
+
+.nav-link:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.link-underline {
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* Example underline color */
+    transition: width 0.3s;
+}
+
+.nav-link:hover .link-underline {
+    width: 100%;
+}
+
+.pointer-events {
+    pointer-events: none;
+}
+
+/* Default navbar link color */
+.nav-link-text {
+    color: #000; /* Default text color */
+}
+
+/* Dark mode navbar link color */
+.dark-mode .nav-link-text {
+    color: #e1bc26; /* Change text color to yellow in dark mode */
+}
+
+/* Other dark mode styles */
+.dark-mode {
+    background-color: #121212; /* Example dark background */
+}

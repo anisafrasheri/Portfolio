@@ -12608,20 +12608,32 @@ textarea.form-control {
     animation-fill-mode: both;
 }
 
-body {
-    cursor: url('images/glitter-cursor.png'), auto;
+
+
+/* Dark mode styles */
+.dark-mode .hero-text,
+.dark-mode .hero-description,
+.dark-mode .link,
+.dark-mode h4{
+    color: #e1bc26; /* Yellow text in dark mode */
 }
 
-/* Glitter effect styling */
-.glitter-effect {
-    position: absolute;
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    background: url('images/glitter-cursor.png') no-repeat center center;
-    background-size: cover;
-    pointer-events: none; /* Prevent it from blocking other elements */
-    transform: translate(-50%, -50%); /* Center the effect */
-    z-index: 9999; /* Ensure it's above other elements */
-    mix-blend-mode: screen; /* Optional: Blend mode for a glitter effect */
-    opacity: 0.8; /* Optional: Adjust opacity for the effect */
+.dark-mode .body,
+.dark-mode .main-hero-container,
+.dark-mode .mb-5,
+.dark-mode .mb-14,
+.dark-mode .mb-4,
+.dark-mode .white-hello,
+.dark-mode .no-margin-bottom,
+.dark-mode .no-margin-top,
+.dark-mode .project-item-title,
+.dark-mode .white-text,
+.dark-mode .no-margin,
+.dark-mode .white
+{
+    color: white;
+}
+
+.dark-mode h6{
+    color: #e1bc26;
 }
