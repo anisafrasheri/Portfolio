@@ -12637,3 +12637,16 @@ textarea.form-control {
 .dark-mode h6{
     color: #e1bc26;
 }
+
+/* Glitter effect using CSS animations */
+body, html {
+    cursor: pointer; /* Hide the default cursor */
+}
+
+.custom-cursor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+    z-index: 10000;
+}
