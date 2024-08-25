@@ -1,0 +1,49 @@
+#gallery-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.gallery-carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item {
+    flex: 0 0 20%; /* Each item takes 20% of the width, so 5 items fit in a row */
+    box-sizing: border-box;
+}
+
+.gallery-image {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
