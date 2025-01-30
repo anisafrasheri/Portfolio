@@ -11,6 +11,7 @@
    <link href="../../css/az-artful.webflow.d841c3435.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
           type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
     <script src="watermark_remove.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -33,7 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <meta property="og:image"
           content="https://cdn1.bbcode0.com/uploads/2021/8/7/8cbc26bf3c750df7225484406b7f2bee-full.jpg">
     <script type="text/javascript">
@@ -201,7 +202,7 @@
                 <div class="mt-3">
                     <!-- Blog Content -->
                     <div class="py-4">
-                        <img src="../../img/istanbull.jpg" alt="Istanbul Skyline" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <img src="../../img/turkeyy.png" alt="Istanbul Skyline" class="img-fluid mb-3" style="width:100%; height:auto;">
                         <p class="lead">Istanbul is one of those cities that just pulls you in. It’s where Europe meets Asia, where history and modern life blend in the most magical way. If you’ve never been, let me tell you—you’re missing out! But don’t worry, I got you. Here’s why you need to put Istanbul at the top of your travel list.</p>
                     </div>
 
@@ -214,32 +215,113 @@
 
                     <div class="py-4">
                         <h3>Grand Bazaar: Shop Till You Drop</h3>
-                        <img src="../img/grand-bazaar.jpg" alt="Grand Bazaar" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <img src="../../img/bazar.jpg" alt="Grand Bazaar" class="img-fluid mb-3" style="width:100%; height:auto;">
                         <p>Okay, if you love shopping (or even if you don’t), the Grand Bazaar is an experience you have to have. Over 4,000 shops packed into this maze-like market—it’s wild. You’ll find everything from Turkish lamps and handmade carpets to the most beautiful jewelry and, of course, spices that smell like heaven. Bargaining is key here, so put your game face on and don’t be shy!</p>
                     </div>
 
                     <div class="py-4">
                         <h3>Food That Will Change Your Life</h3>
-                        <img src="../img/bosphorus.jpg" alt="Bosphorus" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <img src="../../img/istanbulboat.jpg" alt="Bosphorus" class="img-fluid mb-3" style="width:100%; height:auto;">
                         <p>Istanbul’s food scene is next-level. Imagine this: you’re sitting by the Bosphorus, sipping on Turkish <i>tea (çay)</i> with a plate of freshly baked <i>simit</i> (kind of like a sesame bagel but crunchier). Then you move on to a juicy <i>kumpir</i> (a fully loaded baked potato with all the toppings), a wrap stuffed with mouthwatering <i>döner</i>, and <i>ıslak burger</i> (a wet burger that is way better than it sounds). And don’t skip the iconic fish sandwich (balık ekmek)—grilled fish in fresh bread, best enjoyed with a glass of pickle juice. For dessert? Baklava, obviously. And if you’re feeling adventurous, try a cup of Turkish coffee—it’s thick, strong, and comes with your fortune told in the coffee grounds.</p>
-                        <ul>
-                            <li><strong>Galata Tower</strong> - Offers a panoramic view of the city’s skyline, the Bosphorus, and the Golden Horn.</li>
-                            <li><strong>Çamlıca Hill</strong> - A quiet spot with panoramic views of the whole city.</li>
-                            <li><strong>Bosphorus Bridge</strong> - A stunning bridge that connects the European and Asian sides of the city.</li>
-                        </ul>
                     </div>
 
                     <div class="py-4">
-                        <h3>4. Warm and Welcoming People</h3>
-                        <img src="../img/turkish-tea.jpg" alt="Turkish Tea" class="img-fluid mb-3" style="width:100%; height:auto;">
-                        <p>One of the things visitors love most about Istanbul is the warm hospitality of the Turkish people. Whether you're in a busy market, on a boat tour, or just wandering through the streets, you'll often be greeted with a smile and an invitation for Turkish tea.</p>
-                        <p>The genuine kindness and friendliness of the people make the city even more special and worth visiting.</p>
+                        <h3>The Bosphorus & Galata Tower: Views You’ll Never Forget</h3>
+                        <img src="../../img/galata.jpg" alt="Turkish Tea" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <p>Speaking of the Bosphorus—taking a ferry ride between Europe and Asia is a must. How often can you say you’ve been on two continents in one day? The views are unreal, especially at sunset when the city is bathed in golden light. And for the best panoramic view of Istanbul? Head to Galata Tower. Climb to the top, take in the stunning skyline, and feel like you’ve stepped into a fairytale.</p>
                     </div>
 
                     <div class="py-4">
-                        <h3>5. A City of Contrasts</h3>
+                        <h3>Cats, Cats, and More Cats</h3>
+                        <!-- Carousel -->
+                        <div id="catCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- First slide with 3 images -->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="../../img/cat%20(1).jpg" class="d-block w-100" alt="Istanbul Cats 1">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat1.JPG" class="d-block w-100" alt="Istanbul Cats 2">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat2.JPG" class="d-block w-100" alt="Istanbul Cats 3">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Second slide with 3 images -->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="../../img/cat10.JPG" class="d-block w-100" alt="Istanbul Cats 4">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat9.JPG" class="d-block w-100" alt="Istanbul Cats 5">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat5.JPG" class="d-block w-100" alt="Istanbul Cats 6">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Third slide with 3 images -->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <img src="../../img/cat6.JPG" class="d-block w-100" alt="Istanbul Cats 7">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat7.JPG" class="d-block w-100" alt="Istanbul Cats 8">
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="../../img/cat8.JPG" class="d-block w-100" alt="Istanbul Cats 9">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Carousel controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#catCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#catCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <p>If you’re a cat lover, Istanbul is basically heaven. It feels like there are twice as many cats as people, and they roam the city like they own the place (which, let’s be honest, they kind of do). You’ll find them lounging on ancient ruins, chilling in cafes, or even curled up in bookstores. They’re incredibly friendly and always ready to be pet, so don’t be surprised if one jumps into your lap while you’re sipping your tea.</p>
+                    </div>
+
+                    <!-- Bootstrap 5 JavaScript -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+                    <script>
+                        // Initialize the Bootstrap 5 carousel manually (Optional: Automatically starts sliding)
+                        var myCarousel = document.querySelector('#catCarousel');
+                        var carousel = new bootstrap.Carousel(myCarousel, {
+                            interval: 7000, // Auto slide every 7 seconds
+                            ride: 'carousel', // Starts automatically when page loads
+                            wrap: true // Allows looping after reaching the end
+                        });
+                    </script>
+
+
+
+                    <div class="py-4">
+                        <h3>The Kindest People</h3>
                         <img src="../img/istanbul-street.jpg" alt="Istanbul Streets" class="img-fluid mb-3" style="width:100%; height:auto;">
-                        <p>Istanbul is a city where tradition meets modernity. You can experience centuries-old mosques and palaces next to trendy cafes and contemporary art galleries. The bustling streets of the old city contrast beautifully with the sleek skyscrapers of the business district. This blend of old and new creates a dynamic and exciting atmosphere throughout the city.</p>
+                        <p>One of the best things about Istanbul? The people. Turks are some of the kindest, warmest, and most hospitable people you’ll ever meet. Whether it’s a shop owner offering you a free cup of tea, a stranger helping you navigate the city, or a street vendor sharing a story with you, the generosity and friendliness of Istanbul’s people make the experience even more special.</p>
+                    </div>
+
+                    <div class="py-4">
+                        <h3>Why You Need to Go Now</h3>
+                        <img src="../img/istanbul-street.jpg" alt="Istanbul Streets" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <p>Istanbul isn’t just a place—it’s an experience. The energy, the people, the food, the history—it all comes together in the most amazing way. Whether you’re a history buff, a foodie, or just someone looking for an adventure, this city has something for you. So what are you waiting for? Pack your bags, book that ticket, and get ready to fall in love with Istanbul!</p>
                     </div>
                 </div>
             </div>
