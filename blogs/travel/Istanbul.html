@@ -131,6 +131,36 @@
             background-color: #007bff;
             color: white;
         }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 150px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+            padding: 10px 0;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
 
@@ -208,7 +238,7 @@
 
                     <div class="py-4">
                         <h3>1. A Walk Through History</h3>
-                        <img src="../img/blue-mosque.jpg" alt="Blue Mosque" class="img-fluid mb-3" style="width:100%; height:auto;">
+                        <img src="../../img/bluemosque.jpg" alt="Blue Mosque" class="img-fluid mb-3" style="width:100%; height:auto;">
                         <p>First things first—let’s talk about history. This city has been through it all. It was <strong>Byzantium</strong>, then <strong>Constantinople</strong>, and now <strong>Istanbul</strong>. Walking through the streets feels like stepping into a history book, but without the boring textbook vibe. The <strong>Hagia Sophia</strong>? Absolute masterpiece. It was a church, then a mosque, then a museum, and now it’s a mosque again. No matter its status, it’s stunning inside and out. And don’t even get me started on the <strong>Blue Mosque</strong>—it’s like a dream with its intricate blue tiles, an absolute must-see.
                             Then there’s the <strong>Topkapi Palace</strong>, the heart of the Ottoman Empire for centuries. Wander through its lavish rooms and courtyards, and you’ll feel like royalty as you soak in the opulence and history.</p>
                     </div>
@@ -364,11 +394,85 @@
         </div>
     </section>
 
-    <section>
-        <div class="mt-5 mb-5 text-center">
-            <h4>Discover more travel stories on <a href="https://github.com/anisafrasheri?tab=repositories">Github</a></h4>
+    <div class="footer">
+        <div class="container w-container">
+            <div class="footer-title-container">
+                <div class="perspective">
+                    <div class="perspective-load1-on-view">
+                        <h4 class="heading-2">Let's build</h4>
+                    </div>
+                </div>
+                <div class="perspective">
+                    <div class="perspective-load2-on-view">
+                        <h4 class="heading-2">something</h4>
+                    </div>
+                </div>
+                <div class="perspective">
+                    <div class="perspective-load3-on-view">
+                        <h4 class="heading-2">amazing</h4>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <img id="getInTouchImage" src="../../img/istambull.png" loading="lazy" style="width: 10000px" >
+                </div>
+            </div>
+            <div class="fade-in-slow-on-view">
+                <h5>anisafrasheri9@gmail.com</h5>
+            </div>
+            <div class="footer-flex-container">
+                <div class="footer-flex-first">
+                    <div class="content horizontal">
+                        <span class="text-xsmall">Connect with me:</span>
+                        <a href="https://www.linkedin.com/in/anisa-frasheri-b51709225/" target="_blank" class="link footer-link">
+                            LinkedIn
+                        </a>
+                    </div>
+                    <div class="content horizontal">
+                        <a href="https://github.com/anisafrasheri" target="_blank" class="link footer-link">
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="content horizontal">
+                        <a href="https://www.instagram.com/anisafrasherii/" target="_blank" class="link footer-link">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+
+    <style>
+        .footer {
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        .heading-2 {
+            font-size: 40px;
+            margin: 5px 0;
+        }
+
+        .text-xsmall {
+            font-size: 20px;
+        }
+
+        .circle-image-small {
+            width: 50px;
+            height: 50px;
+        }
+
+        .circle-small-image-smaller {
+            width: 80px;
+            height: 400px;
+        }
+
+        .footer-link {
+            font-size: 12px;
+            margin: 0 5px;
+        }
+    </style>
+
 </div>
 
 <!-- Scripts -->
