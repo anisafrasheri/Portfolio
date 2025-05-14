@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Posts - Anisa Frasheri</title>
+
+  <!-- Existing Styles -->
+  <link rel="stylesheet" href="../../css/az-artful.webflow.d841c3435.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/nav.css" />
+  <link rel="stylesheet" href="../../css/animate.css" />
+  <link rel="stylesheet" href="../../css/skill-counter.css" />
+  <link rel="stylesheet" href="../../css/index.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+  <style>
+    .blog-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border-radius: 15px;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+    }
+
+    .blog-image {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+
+    .blog-title {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #333;
+    }
+
+    .blog-description {
+      color: #555;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .blog-image {
+        border-radius: 15px 15px 0 0 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div data-collapse="small" data-animation="default" class="fixed-nav w-nav">
+  <div class="container nav-container w-container">
+    <a href="../index.html">
+      <img src="../img/sunflower.png" alt="Home" style="width:70px; height:70px; cursor:pointer;">
+    </a>
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <a href="../about" class="nav-link w-inline-block">
+        <div class="nav-link-text">About</div>
+        <div class="link-underline"></div>
+      </a>
+      <a href="../resume" class="nav-link w-inline-block">
+        <div class="nav-link-text">Resume</div>
+        <div class="link-underline"></div>
+      </a>
+      <a href="../about/projects.html" class="nav-link w-inline-block">
+        <div class="nav-link-text">Projects</div>
+        <div class="link-underline"></div>
+      </a>
+      <a href="../blogs/blogs.html" class="nav-link w-inline-block dropdown">
+        <div class="nav-link-text">Blogs</div>
+        <div class="link-underline"></div>
+        <div class="dropdown-content">
+          <a href="../about/it.html" class="dropdown-item">IT</a>
+          <a href="about/mental-health.html" class="dropdown-item">Mental Health</a>
+          <a href="about/travel.html" class="dropdown-item">Travel</a>
+          <a href="about/kitchen.html" class="dropdown-item">Kitchen</a>
+        </div>
+      </a>
+
+      <a href="https://github.com/anisafrasheri" class="nav-link w-inline-block">
+        <div class="nav-link-text">Github</div>
+        <div class="link-underline"></div>
+      </a>
+
+
+      <div class="pointer-events w-embed">
+        <style>
+          .cursor {
+            pointer-events: none;
+          }
+        </style>
+      </div>
+    </nav>
+
+    <div class="menu-button w-nav-button"><img id="menu-button" src="imgg/menu-icon-black.svg" loading="lazy"
+                                               alt="" /></div>
+  </div>
+  <div class="nav-bg-white"></div>
+
+
+
+</div>
+<div class="container mt-5 mb-5", style="padding-top: 200px">
+  <h1 class="mb-5 text-center"> Featured Blog Posts</h1>
+
+  <!-- Blog Post 1 -->
+  <a href="travel/Istanbul.html" class="text-dark">
+    <div class="row blog-card mb-4 p-3 d-flex align-items-center">
+      <div class="col-md-4">
+        <img src="../../img/istanbull.jpg" alt="Istanbul" class="img-fluid blog-image">
+      </div>
+      <div class="col-md-8 px-4 py-3">
+        <div class="blog-title">Why Visit Istanbul?</div>
+        <div class="blog-description">Discover Istanbul's breathtaking beauty, rich culture, and history — a city that bridges continents.</div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Blog Post 2 -->
+  <a href="mental-health/self-care.html" class="text-dark">
+    <div class="row blog-card mb-4 p-3 d-flex align-items-center">
+      <div class="col-md-4">
+        <img src="../../img/selfcare.jpg" alt="Self Care" class="img-fluid blog-image">
+      </div>
+      <div class="col-md-8 px-4 py-3">
+        <div class="blog-title">Self-Care That Actually Works</div>
+        <div class="blog-description">Build a real self-care routine that fuels your mind, body, and self-confidence.</div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Blog Post 3 -->
+  <a href="it/ai-for-creators.html" class="text-dark">
+    <div class="row blog-card mb-4 p-3 d-flex align-items-center">
+      <div class="col-md-4">
+        <img src="../../img/ai.jpg" alt="AI for Creators" class="img-fluid blog-image">
+      </div>
+      <div class="col-md-8 px-4 py-3">
+        <div class="blog-title">AI Tools for Creators</div>
+        <div class="blog-description">Enhance your productivity and creativity with AI tools built for content creators and designers.</div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Add more cards here... -->
+
+</div>
+</body>
+</html>
